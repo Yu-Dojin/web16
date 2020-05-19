@@ -7,7 +7,6 @@ import (
 	"strings"
 
 	"github.com/Yu-Dojin/web16/model"
-
 	sessions "github.com/gorilla/Sessions"
 	"github.com/gorilla/mux"
 	"github.com/unrolled/render"

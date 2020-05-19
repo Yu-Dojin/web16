@@ -11,7 +11,6 @@ import (
 	"testing"
 
 	"github.com/Yu-Dojin/web16/model"
-
 	"github.com/stretchr/testify/assert"
 )
 
