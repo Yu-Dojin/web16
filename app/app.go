@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/Yu-Dojin/web16/model"
+	sessions "github.com/gorilla/Sessions"
 	"github.com/gorilla/mux"
-	"github.com/gorilla/sessions"
 	"github.com/unrolled/render"
 	"github.com/urfave/negroni"
 )
