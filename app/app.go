@@ -7,12 +7,13 @@ import (
 	"strings"
 
 	"github.com/Yu-Dojin/web16/model"
-	sessions "github.com/gorilla/Sessions"
 	"github.com/gorilla/mux"
+	"github.com/gorilla/sessions"
 	"github.com/unrolled/render"
 	"github.com/urfave/negroni"
 )
 
+//확인용 테스트2
 var store = sessions.NewCookieStore([]byte(os.Getenv("SESSION_KEY"))) //os의 환경변수에서 SESSION_KEY 라는 환경변수를 가져와서 암호화 한다.
 var rd *render.Render = render.New()
 
